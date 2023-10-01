@@ -1,0 +1,65 @@
+.header__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 3.5% 25px;
+    // padding: 0 3.5%;
+    border-bottom: 1px solid #CCC;
+
+
+    .logo {
+        padding: 3px 0 9px;
+    }
+
+
+    .header__item--mod {
+        width: 86.5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        .nav {
+            width: 51%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            gap: 7%;
+
+            .nav__link {
+                white-space: nowrap;
+                color: #000;
+                font-size: 0.9375rem;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        .nav__item--mod {
+            padding: 8px 2.5% 12px 0;
+        }
+
+        .nav__item--spec {
+            padding: 5px 1.37% 3px 1.2%;
+        }
+
+        .buttons {
+            width: 22.5%;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 3.85%;
+
+            .buttons__link {
+                width: 46.1%;
+                height: 45px;
+            }
+
+            .button--free {
+                color: #FFF;
+                background-color: #FF6336;
+                border: 1px solid #FF6336;
+            }
+        }
+    }
+}
