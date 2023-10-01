@@ -154,14 +154,14 @@ table {
 body {
   background-color: #FFF;
   font-family: "Graphik LC TT";
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
+  color: #000;
 }
 
 .button {
   width: 100%;
   height: 45px;
-  color: #000;
   background-color: #fff;
   font-size: 1rem;
   text-align: center;
@@ -171,54 +171,99 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.header__line {
+.button--free {
+  color: #FFF;
+  background-color: #FF6336;
+  border: 1px solid #FF6336;
+}
+
+.header-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25px 3.5% 25px;
+  padding: 25px 3.5%;
   border-bottom: 1px solid #CCC;
 }
-.header__line .logo {
+.header-menu .logo {
   padding: 3px 0 9px;
 }
-.header__line .header__item--mod {
+.header-menu .navi-menu {
   width: 86.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.header__line .header__item--mod .nav {
+.header-menu .navi-menu .nav {
   width: 51%;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 7%;
 }
-.header__line .header__item--mod .nav .nav__link {
+.header-menu .navi-menu .nav .nav__link {
   white-space: nowrap;
   color: #000;
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 20px;
 }
-.header__line .header__item--mod .nav__item--mod {
+.header-menu .navi-menu .nav__item--mod {
   padding: 8px 2.5% 12px 0;
 }
-.header__line .header__item--mod .nav__item--spec {
+.header-menu .navi-menu .nav__item--spec {
   padding: 5px 1.37% 3px 1.2%;
 }
-.header__line .header__item--mod .buttons {
+.header-menu .navi-menu .buttons {
   width: 22.5%;
   display: flex;
   flex-direction: row-reverse;
   gap: 3.85%;
 }
-.header__line .header__item--mod .buttons .buttons__link {
+.header-menu .navi-menu .buttons .button__link {
   width: 46.1%;
   height: 45px;
 }
-.header__line .header__item--mod .buttons .button--free {
-  color: #FFF;
-  background-color: #FF6336;
-  border: 1px solid #FF6336;
+
+.sides {
+  margin: 0 auto;
+  width: 89.6%;
+  padding: 97px 0 137px;
+  display: flex;
+  justify-content: space-between;
+}
+.sides .side-block {
+  width: 48%;
+}
+.sides .side-block h1 {
+  width: 89%;
+  margin-top: 14px;
+  font-size: 4.0625rem;
+  font-weight: 600;
+  line-height: 70px;
+}
+.sides .side-block p.side-main {
+  width: 76%;
+  margin-top: 51px;
+  font-size: 1.5625rem;
+  line-height: 35px;
+}
+.sides .side-block .buttons-side {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 1.6%;
+}
+.sides .side-block .button__link {
+  width: 25.8%;
+}
+.sides .side-block p.side-add {
+  margin-top: 25px;
+  font-size: 0.9375rem;
+  line-height: 25px;
+}
+.sides .side-block--mod {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */

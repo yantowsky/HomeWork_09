@@ -1,23 +1,19 @@
-.header__line {
+.header-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px 3.5% 25px;
-    // padding: 0 3.5%;
+    padding: 25px 3.5%;
     border-bottom: 1px solid #CCC;
-
 
     .logo {
         padding: 3px 0 9px;
     }
 
-
-    .header__item--mod {
+    .navi-menu {
         width: 86.5%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
 
         .nav {
             width: 51%;
@@ -50,16 +46,62 @@
             flex-direction: row-reverse;
             gap: 3.85%;
 
-            .buttons__link {
+            .button__link {
                 width: 46.1%;
                 height: 45px;
             }
-
-            .button--free {
-                color: #FFF;
-                background-color: #FF6336;
-                border: 1px solid #FF6336;
-            }
         }
     }
+}
+
+.sides {
+    margin: 0 auto;
+    width: 89.6%;
+    padding: 97px 0 137px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .side-block {
+        width: 48%;
+
+        h1 {
+            width: 89%;
+            margin-top: 14px;
+            font-size: 4.0625rem;
+            font-weight: 600;
+            line-height: 70px;
+        }
+
+        p.side-main {
+            width: 76%;
+            margin-top: 51px;
+            font-size: 1.5625rem;
+            line-height: 35px;
+        }
+        .buttons-side {
+            width: 100%;
+            margin-top: 30px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: start;
+            gap: 1.6%;
+        }
+    
+        .button__link {
+            width: 25.8%;
+        }
+
+        p.side-add {
+            margin-top: 25px;
+            font-size: 0.9375rem;
+            line-height: 25px;
+        }
+    }
+
+    .side-block--mod {
+        display: flex;
+        justify-content: flex-end;
+    }
+
 }
