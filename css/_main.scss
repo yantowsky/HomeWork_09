@@ -38,14 +38,14 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding-right: 11%;
+            padding: 0 10.8% 0 0;
 
             .block-text-parag {
                 margin-top: 30px;
                 font-size: 1.25rem;
                 line-height: 30px;
             }
-            
+
             .block-text-link {
                 margin-top: 30px;
                 color: #000;
@@ -53,30 +53,31 @@
                 font-weight: 600;
                 line-height: 30px;
             }
-            
+
             .block-text-link:hover {
                 text-decoration-line: underline;
             }
         }
-
-        .secondary-block-img {
-            width: 175%;
-        }
-
     }
+
     .container-secondary-block--mod {
         flex-direction: row-reverse;
-        
+
         .secondary-block-text {
             padding: 0 0 0 10.8%;
 
             .block-text-title {
-                width: 72%;
+                width: 61.3%;
             }
 
             .block-text-parag {
-                width: 86.5%;
+                width: 72.7%;
             }
+
         }
+    }
+
+    .block-text-parag--mod {
+        width: 84%;
     }
 }
