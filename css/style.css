@@ -183,6 +183,13 @@ h3 {
   line-height: 60px;
 }
 
+.line-link {
+  text-decoration-line: underline;
+}
+.line-link a {
+  color: #000;
+}
+
 .header-menu {
   display: flex;
   flex-direction: row;
@@ -276,6 +283,7 @@ h3 {
 .sides .side-block--mod {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .main-container-primary {
@@ -293,9 +301,46 @@ h3 {
   text-align: center;
 }
 .main-container-primary .container-primary-block .primary-block-img {
-  width: 100%;
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.main-container-secondary {
+  padding: 90px 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container-secondary .container-secondary-block {
+  margin: 0 auto;
+  width: 89.6%;
+  display: flex;
+  flex-direction: row;
+}
+.main-container-secondary .container-secondary-block .secondary-block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 13%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-text .block-text-parag {
+  margin-top: 30px;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+.main-container-secondary .container-secondary-block .secondary-block-text .block-text-link {
+  margin-top: 30px;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+.main-container-secondary .container-secondary-block .secondary-block-text .block-text-link:hover {
+  text-decoration-line: underline;
+}
+.main-container-secondary .container-secondary-block .secondary-block-img {
+  width: 49%;
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */

@@ -90,6 +90,7 @@
 
             .button__link {
                 width: 25.9%;
+
                 .button {
                     height: 60px;
                     line-height: 60px;
@@ -108,5 +109,6 @@
     .side-block--mod {
         display: flex;
         justify-content: flex-end;
+        align-items: center;
     }
 }
