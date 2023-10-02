@@ -314,7 +314,6 @@ h3 {
 }
 .main-container-secondary .container-secondary-block {
   margin: 0 auto;
-  padding-bottom: 250px;
   width: 89.6%;
   display: flex;
   flex-direction: row;
@@ -342,16 +341,11 @@ h3 {
 }
 .main-container-secondary .container-secondary-block--mod {
   flex-direction: row-reverse;
+  padding-top: 250px;
 }
 .main-container-secondary .container-secondary-block--mod .secondary-block-text {
   padding: 0 0 0 10.8%;
 }
-.main-container-secondary .container-secondary-block--mod .secondary-block-text .block-text-title {
-  width: 61.3%;
-}
-.main-container-secondary .container-secondary-block--mod .secondary-block-text .block-text-parag {
-  width: 72.7%;
-}
-.main-container-secondary .block-text-parag--mod {
-  width: 84%;
+.main-container-secondary .container-secondary-block--spec {
+  padding-top: 250px;
 }/*# sourceMappingURL=style.css.map */

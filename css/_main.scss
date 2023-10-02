@@ -29,7 +29,7 @@
 
     .container-secondary-block {
         margin: 0 auto;
-        padding-bottom: 250px;
+        // padding-bottom: 250px;
         width: 89.6%;
         display: flex;
         flex-direction: row;
@@ -62,22 +62,15 @@
 
     .container-secondary-block--mod {
         flex-direction: row-reverse;
+        padding-top: 250px;
 
         .secondary-block-text {
             padding: 0 0 0 10.8%;
-
-            .block-text-title {
-                width: 61.3%;
-            }
-
-            .block-text-parag {
-                width: 72.7%;
-            }
-
         }
     }
 
-    .block-text-parag--mod {
-        width: 84%;
+    .container-secondary-block--spec {
+        padding-top: 250px;
     }
+
 }
