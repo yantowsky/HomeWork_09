@@ -79,6 +79,7 @@
             font-size: 1.5625rem;
             line-height: 35px;
         }
+
         .buttons-side {
             width: 100%;
             margin-top: 30px;
@@ -86,10 +87,15 @@
             display: flex;
             justify-content: start;
             gap: 1.6%;
-        }
-    
-        .button__link {
-            width: 25.8%;
+
+            .button__link {
+                width: 25.9%;
+                .button {
+                    height: 60px;
+                    line-height: 60px;
+                }
+
+            }
         }
 
         p.side-add {
@@ -103,5 +109,4 @@
         display: flex;
         justify-content: flex-end;
     }
-
 }
