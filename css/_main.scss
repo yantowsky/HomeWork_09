@@ -25,10 +25,11 @@
 .main-container-secondary {
     padding: 90px 0 150px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 
     .container-secondary-block {
         margin: 0 auto;
+        padding-bottom: 250px;
         width: 89.6%;
         display: flex;
         flex-direction: row;
@@ -37,7 +38,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding-right: 13%;
+            padding-right: 11%;
 
             .block-text-parag {
                 margin-top: 30px;
@@ -59,9 +60,23 @@
         }
 
         .secondary-block-img {
-            width: 49%;
-            display: flex;
-            justify-content: flex-end;
+            width: 175%;
+        }
+
+    }
+    .container-secondary-block--mod {
+        flex-direction: row-reverse;
+        
+        .secondary-block-text {
+            padding: 0 0 0 10.8%;
+
+            .block-text-title {
+                width: 72%;
+            }
+
+            .block-text-parag {
+                width: 86.5%;
+            }
         }
     }
 }

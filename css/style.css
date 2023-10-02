@@ -190,6 +190,10 @@ h3 {
   color: #000;
 }
 
+img {
+  width: 100%;
+}
+
 .header-menu {
   display: flex;
   flex-direction: row;
@@ -310,10 +314,11 @@ h3 {
 .main-container-secondary {
   padding: 90px 0 150px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .main-container-secondary .container-secondary-block {
   margin: 0 auto;
+  padding-bottom: 250px;
   width: 89.6%;
   display: flex;
   flex-direction: row;
@@ -322,7 +327,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 13%;
+  padding-right: 11%;
 }
 .main-container-secondary .container-secondary-block .secondary-block-text .block-text-parag {
   margin-top: 30px;
@@ -340,7 +345,17 @@ h3 {
   text-decoration-line: underline;
 }
 .main-container-secondary .container-secondary-block .secondary-block-img {
-  width: 49%;
-  display: flex;
-  justify-content: flex-end;
+  width: 175%;
+}
+.main-container-secondary .container-secondary-block--mod {
+  flex-direction: row-reverse;
+}
+.main-container-secondary .container-secondary-block--mod .secondary-block-text {
+  padding: 0 0 0 10.8%;
+}
+.main-container-secondary .container-secondary-block--mod .secondary-block-text .block-text-title {
+  width: 72%;
+}
+.main-container-secondary .container-secondary-block--mod .secondary-block-text .block-text-parag {
+  width: 86.5%;
 }/*# sourceMappingURL=style.css.map */
