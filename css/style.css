@@ -145,9 +145,17 @@ table {
 
 @font-face {
   font-family: "Graphik LC TT";
-  src: url("../fonts/GraphikLCWeb-Medium.eot");
-  src: url("../fonts/GraphikLCWeb-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GraphikLCWeb-Medium.woff2") format("woff2"), url("../fonts/GraphikLCWeb-Medium.woff") format("woff"), url("../fonts/GraphikLCWeb-Medium.ttf") format("truetype"), url("../fonts/GraphikLCWeb-Medium.svg#GraphikLCWeb-Medium") format("svg");
+  src: url("../fonts/Graphik/GraphikLCWeb-Medium.eot");
+  src: url("../fonts/Graphik/GraphikLCWeb-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Graphik/GraphikLCWeb-Medium.woff2") format("woff2"), url("../fonts/Graphik/GraphikLCWeb-Medium.woff") format("woff"), url("../fonts/Graphik/GraphikLCWeb-Medium.ttf") format("truetype"), url("../fonts/Graphik/GraphikLCWeb-Medium.svg#GraphikLCWeb-Medium") format("svg");
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.eot");
+  src: url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -239,7 +247,7 @@ h3 {
 
 .sides {
   margin: 0 auto;
-  width: 89.6%;
+  width: 90.7%;
   padding: 97px 0 137px;
   display: flex;
   justify-content: space-between;
@@ -292,7 +300,7 @@ h3 {
 }
 .main-container-primary .container-primary-block {
   margin: 0 auto;
-  width: 89.6%;
+  width: 90.7%;
   padding: 98px 0 94px;
 }
 .main-container-primary .container-primary-block h3 {
@@ -314,7 +322,7 @@ h3 {
 }
 .main-container-secondary .container-secondary-block {
   margin: 0 auto;
-  width: 89.6%;
+  width: 90.7%;
   display: flex;
   flex-direction: row;
 }
@@ -339,13 +347,27 @@ h3 {
 .main-container-secondary .container-secondary-block .secondary-block-text .block-text-link:hover {
   text-decoration-line: underline;
 }
+.main-container-secondary .container-secondary-block .secondary-block-forms {
+  background-color: #FFF8E4;
+  padding: 119px 5.2%;
+  width: 100%;
+}
 .main-container-secondary .container-secondary-block--mod {
   flex-direction: row-reverse;
-  padding-top: 250px;
 }
 .main-container-secondary .container-secondary-block--mod .secondary-block-text {
   padding: 0 0 0 10.8%;
 }
-.main-container-secondary .container-secondary-block--spec {
-  padding-top: 250px;
+.main-container-tertiary {
+  background-color: #FFF8E4;
+}
+.main-container-tertiary .container-tertiary-block {
+  margin: 0 auto;
+  width: 89.6%;
+  padding: 120px 0 93px;
+  display: flex;
+  justify-content: center;
+}
+.main-container-tertiary .container-tertiary-block .block-text-title {
+  width: 69%;
 }/*# sourceMappingURL=style.css.map */

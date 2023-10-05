@@ -4,7 +4,7 @@
 
     .container-primary-block {
         margin: 0 auto;
-        width: 89.6%;
+        width: 90.7%;
         padding: 98px 0 94px;
 
         h3 {
@@ -30,7 +30,7 @@
     .container-secondary-block {
         margin: 0 auto;
         // padding-bottom: 250px;
-        width: 89.6%;
+        width: 90.7%;
         display: flex;
         flex-direction: row;
 
@@ -58,11 +58,17 @@
                 text-decoration-line: underline;
             }
         }
+        .secondary-block-forms {
+            background-color: #FFF8E4;
+            padding: 119px 5.2%;
+            width: 100%;
+    
+        }
     }
 
     .container-secondary-block--mod {
         flex-direction: row-reverse;
-        padding-top: 250px;
+        // padding-top: 250px;
 
         .secondary-block-text {
             padding: 0 0 0 10.8%;
@@ -70,7 +76,28 @@
     }
 
     .container-secondary-block--spec {
-        padding-top: 250px;
+        // padding-top: 250px;
+    }
+    
+}
+
+.main-container-tertiary {
+    background-color: #FFF8E4;
+
+    .container-tertiary-block {
+        margin: 0 auto;
+        width: 89.6%;
+        padding: 120px 0 93px;
+        display: flex;
+        justify-content: center;
+
+        .block-text-title {
+            width: 69%;
+        }
+
+
     }
 
 }
+
+.main-container-quaternary {}

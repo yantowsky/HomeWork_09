@@ -1,12 +1,25 @@
 @font-face {
     font-family: 'Graphik LC TT';
-    src: url('../fonts/GraphikLCWeb-Medium.eot');
-    src: url('../fonts/GraphikLCWeb-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GraphikLCWeb-Medium.woff2') format('woff2'),
-        url('../fonts/GraphikLCWeb-Medium.woff') format('woff'),
-        url('../fonts/GraphikLCWeb-Medium.ttf') format('truetype'),
-        url('../fonts/GraphikLCWeb-Medium.svg#GraphikLCWeb-Medium') format('svg');
+    src: url('../fonts/Graphik/GraphikLCWeb-Medium.eot');
+    src: url('../fonts/Graphik/GraphikLCWeb-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Graphik/GraphikLCWeb-Medium.woff2') format('woff2'),
+        url('../fonts/Graphik/GraphikLCWeb-Medium.woff') format('woff'),
+        url('../fonts/Graphik/GraphikLCWeb-Medium.ttf') format('truetype'),
+        url('../fonts/Graphik/GraphikLCWeb-Medium.svg#GraphikLCWeb-Medium') format('svg');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.eot');
+    src: url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
