@@ -325,12 +325,13 @@ h3 {
   width: 90.7%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .main-container-secondary .container-secondary-block .secondary-block-text {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10.8% 0 0;
 }
 .main-container-secondary .container-secondary-block .secondary-block-text .block-text-parag {
   margin-top: 30px;
@@ -348,15 +349,141 @@ h3 {
   text-decoration-line: underline;
 }
 .main-container-secondary .container-secondary-block .secondary-block-forms {
+  width: 40.2%;
   background-color: #FFF8E4;
-  padding: 119px 5.2%;
-  width: 100%;
+  padding: 97px 3%;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary {
+  background-color: #FFF;
+  padding: 30px 11.7% 30px 5.5%;
+  display: flex;
+  flex-direction: column;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh {
+  display: flex;
+  flex-direction: row;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .client,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .client {
+  color: #008;
+  padding-right: 2%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .simbol-second--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .client--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .simbol-second--mod {
+  margin-left: 8%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .simbol-first,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .simbol-first {
+  color: #393;
+  padding: 0 2% 0 1%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .localise,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .localise {
+  color: #9876AA;
+  padding-right: 9%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .simbol-second,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .simbol-second {
+  color: #090;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .token,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .token {
+  color: #008;
+  padding-right: 1%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .files,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .files {
+  color: #004000;
+  padding-right: 1%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .files--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .files--mod {
+  padding-right: 3%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .format,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .format {
+  color: #00F;
+  padding-right: 2%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-first .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-third .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fourth .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-fifth .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-sixth .format--mod,
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-seventh .format--mod {
+  margin-left: 16%;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-primary .line-code-second {
+  margin-top: 30px;
+}
+.main-container-secondary .container-secondary-block .secondary-block-forms .form-secondary {
+  padding: 9.5px 0 0 13.5%;
 }
 .main-container-secondary .container-secondary-block--mod {
   flex-direction: row-reverse;
-}
-.main-container-secondary .container-secondary-block--mod .secondary-block-text {
-  padding: 0 0 0 10.8%;
 }
 .main-container-tertiary {
   background-color: #FFF8E4;

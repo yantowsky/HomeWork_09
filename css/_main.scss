@@ -33,12 +33,14 @@
         width: 90.7%;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
 
         .secondary-block-text {
+            width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 0 10.8% 0 0;
+            // padding: 0 10.8% 0 0;
 
             .block-text-parag {
                 margin-top: 30px;
@@ -58,11 +60,83 @@
                 text-decoration-line: underline;
             }
         }
+
         .secondary-block-forms {
+            width: 40.2%;
             background-color: #FFF8E4;
-            padding: 119px 5.2%;
-            width: 100%;
-    
+            padding: 97px 3%;
+            font-family: 'Roboto';
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 30px;
+
+            .form-primary {
+                background-color: #FFF;
+                padding: 30px 11.7% 30px 5.5%;
+                display: flex;
+                flex-direction: column;
+
+                .line-code-first,
+                .line-code-second,
+                .line-code-third,
+                .line-code-fourth,
+                .line-code-fifth,
+                .line-code-sixth,
+                .line-code-seventh {
+                    display: flex;
+                    flex-direction: row;
+
+                    .client {
+                        color: #008;
+                        padding-right: 2%;
+                    }
+                    .client--mod,
+                    .simbol-second--mod {
+                        margin-left: 8%;
+                    }
+
+                    .simbol-first {
+                        color: #393;
+                        padding: 0 2% 0 1%;
+                    }
+
+                    .localise {
+                        color: #9876AA;
+                        padding-right: 9%;
+                    }
+
+                    .simbol-second {
+                        color: #090;
+                    }
+
+                    .token {
+                        color: #008;
+                        padding-right: 1%;
+                    }
+
+                    .files {
+                        color: #004000;
+                        padding-right: 1%;
+                    }
+
+                    .files--mod {
+                        padding-right: 3%;
+                    }
+                    .format {
+                        color: #00F;
+                        padding-right: 2%;
+                    }
+                    .format--mod {
+                        margin-left: 16%;
+                    }
+                }
+                .line-code-second {
+                    margin-top: 30px;
+                }
+            }
+            .form-secondary {
+                padding: 9.5px 0 0 13.5%;
+            }
         }
     }
 
@@ -71,14 +145,14 @@
         // padding-top: 250px;
 
         .secondary-block-text {
-            padding: 0 0 0 10.8%;
+            // padding: 0 0 0 10.8%;
         }
     }
 
     .container-secondary-block--spec {
         // padding-top: 250px;
     }
-    
+
 }
 
 .main-container-tertiary {
