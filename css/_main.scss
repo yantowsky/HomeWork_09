@@ -29,7 +29,6 @@
 
     .container-secondary-block {
         margin: 0 auto;
-        // padding-bottom: 250px;
         width: 90.7%;
         display: flex;
         flex-direction: row;
@@ -40,7 +39,6 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            // padding: 0 10.8% 0 0;
 
             .block-text-parag {
                 margin-top: 30px;
@@ -90,6 +88,7 @@
                         color: #008;
                         padding-right: 2%;
                     }
+
                     .client--mod,
                     .simbol-second--mod {
                         margin-left: 8%;
@@ -122,18 +121,22 @@
                     .files--mod {
                         padding-right: 3%;
                     }
+
                     .format {
                         color: #00F;
                         padding-right: 2%;
                     }
+
                     .format--mod {
                         margin-left: 16%;
                     }
                 }
+
                 .line-code-second {
                     margin-top: 30px;
                 }
             }
+
             .form-secondary {
                 padding: 9.5px 0 0 13.5%;
             }
@@ -142,17 +145,12 @@
 
     .container-secondary-block--mod {
         flex-direction: row-reverse;
-        // padding-top: 250px;
-
-        .secondary-block-text {
-            // padding: 0 0 0 10.8%;
-        }
+        padding-top: 250px;
     }
 
     .container-secondary-block--spec {
-        // padding-top: 250px;
+        padding-top: 250px;
     }
-
 }
 
 .main-container-tertiary {
@@ -160,18 +158,48 @@
 
     .container-tertiary-block {
         margin: 0 auto;
-        width: 89.6%;
+        width: 90.7%;
         padding: 120px 0 93px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
 
         .block-text-title {
-            width: 69%;
+            text-align: center;
         }
 
+        .tertiary-block-items {
+            margin-top: 58px;
+            padding: 0 3.1% 0;
 
+            .block-items-line {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .block-item {
+                    width: 25.6%;
+                    text-align: center;
+                    margin-bottom: 57px;
+
+                    .block-item-img {
+                        margin-bottom: 26px;
+                    }
+
+                    .block-item-name {
+                        font-size: 1.5625rem;
+                        font-weight: 600;
+                        line-height: 35px;
+                        margin-bottom: 20px;
+                    }
+
+                    .block-item-text {
+                        font-size: 1.125rem;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
     }
-
 }
 
 .main-container-quaternary {}
