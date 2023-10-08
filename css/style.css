@@ -529,4 +529,42 @@ h3 {
 .main-container-tertiary .container-tertiary-block .tertiary-block-items .block-items-line .block-item .block-item-text {
   font-size: 1.125rem;
   line-height: 25px;
+}
+
+.main-container-quaternary .container-quaternary-block {
+  margin: 0 auto;
+  width: 90.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 154px 0 187px;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements {
+  display: flex;
+  flex-direction: row;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element {
+  width: 33.3%;
+  padding-right: 2.4%;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-img {
+  margin: 50px 0 49px;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-img--mod {
+  margin: 67px 0;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-img--spec {
+  margin: 59px 0 58px;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-name {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 34px;
+}
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-text,
+.main-container-quaternary .container-quaternary-block .quaternary-block-elements .block-element .block-element-link {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=style.css.map */

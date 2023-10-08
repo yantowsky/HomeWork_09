@@ -202,4 +202,49 @@
     }
 }
 
-.main-container-quaternary {}
+.main-container-quaternary {
+    .container-quaternary-block {
+        margin: 0 auto;
+        width: 90.7%;
+        display: flex;
+        flex-direction: column;
+        padding: 154px 0 187px;
+
+        .quaternary-block-elements {
+            display: flex;
+            flex-direction: row;
+
+            .block-element {
+                width: 33.3%;
+                padding-right: 2.4%;
+
+                .block-element-img {
+                    margin: 50px 0 49px;
+                }
+
+                .block-element-img--mod {
+                    margin: 67px 0;
+                }
+
+                .block-element-img--spec {
+                    margin: 59px 0 58px;
+                }
+
+                .block-element-name {
+                    font-size: 1.875rem;
+                    font-weight: 600;
+                    line-height: 40px;
+                    margin-bottom: 34px;
+                }
+
+                .block-element-text,
+                .block-element-link {
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    line-height: 30px;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
