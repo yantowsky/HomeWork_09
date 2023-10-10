@@ -281,3 +281,100 @@
         }
     }
 }
+
+.main-container-rank {
+    background-color: #DABC98;
+    padding: 79px 0 80px;
+
+    .container-rank-block {
+        margin: 0 auto;
+        width: 90.7%;
+        display: flex;
+        flex-direction: row;
+
+        .rank-block-primary {
+            width: 62.7%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .block-primary-text {
+                width: 57%;
+                margin-left: 8.3%;
+                font-size: 2.1875rem;
+                font-weight: 600;
+                line-height: 50px;
+            }
+        }
+
+        .rank-block-secondary {
+            width: 37.3%;
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid #000;
+            padding: 30px 4.8% 23px 5.5%;
+
+            .block-secondary-logo,
+            .block-secondary-rank,
+            .block-secondary-text {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .block-secondary-logo {
+                margin-bottom: 20px;
+            }
+
+            .block-secondary-text {
+                margin-top: 14px;
+                font-size: 0.9375rem;
+                line-height: 25px;
+                letter-spacing: 0.75px;
+                text-transform: uppercase;
+            }
+        }
+
+        .secondary-ran--mod,
+        .secondary-text--mod {
+            padding-right: 6.4%;
+        }
+    }
+}
+
+.main-container-tools {
+    padding: 169px 0 162px;
+
+    .container-tools-block {
+        margin: 0 auto;
+        width: 90.7%;
+        text-align: center;
+
+
+        .tools-block-title {
+            width: 61.3%;
+            margin: 0 auto;
+            font-size: 4.0625rem;
+            font-weight: 600;
+            line-height: 75px;
+        }
+
+        .tools-block-text {
+            width: 41.8%;
+            margin: 0 auto;
+            font-size: 1.5625rem;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+
+        .tools-block-img {
+            margin-bottom: 32px;
+        }
+
+        .button {
+            width: 193px;
+        }
+
+    }
+}
