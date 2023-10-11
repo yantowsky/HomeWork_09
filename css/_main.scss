@@ -375,6 +375,31 @@
         .button {
             width: 193px;
         }
+    }
+}
 
+.main-container-localiz {
+    padding: 119px 0 161px;
+    background-color: #FF9C7D;
+
+    .container-localiz-block {
+        margin: 0 auto;
+        width: 90.7%;
+        text-align: center;
+
+        .localiz-block-title {
+            width: 61.3%;
+            margin: 0 auto;
+            font-size: 4.0625rem;
+            font-weight: 600;
+            line-height: 75px;
+            margin-bottom: 29px;
+        }
+
+        .localiz-block-text {
+            font-size: 1.25rem;
+            line-height: 30px;
+            margin-bottom: 54px;
+        }
     }
 }

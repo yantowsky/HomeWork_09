@@ -1,0 +1,119 @@
+.footer {
+    background-color: #EEEEEE;
+    padding: 92px 0 43px;
+
+    .footer-container-primary {
+        margin: 0 auto;
+        width: 90.7%;
+        padding-bottom: 95px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+
+        .container-primary-case {
+            width: 28.7%;
+            padding-right: 5.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .primary-case-title {
+                font-size: 2.5rem;
+                font-weight: 600;
+                line-height: 50px;
+                margin-bottom: 28px;
+            }
+
+            .primary-case-img {
+                margin-bottom: 31px;
+            }
+
+            .primary-case-logo {
+                margin-bottom: 11px;
+            }
+
+            .primary-case-text {
+                font-size: 1.25rem;
+                line-height: 30px;
+                margin-bottom: 15px;
+            }
+
+            .primary-case-link {
+                color: #000;
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 30px;
+            }
+
+            .primary-case-link:hover {
+                text-decoration-line: underline;
+            }
+        }
+
+        .container-primary-menu {
+            width: 65.9%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .primary-menu-block {
+                width: 22%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .menu__heading {
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    line-height: 25px;
+                    margin-bottom: 21px;
+                }
+
+                .menu__item {
+                    gap: 15px;
+                    margin-bottom: 15px;
+                }
+
+                .menu__link {
+                    color: #000;
+                    font-size: 0.9375rem;
+                }
+
+                .menu__link:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .footer-container-secondary {
+        margin: 0 auto;
+        width: 90.7%;
+        margin-top: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .container-secondary-logo {
+            display: flex;
+            flex-direction: row;
+
+            .secondary-text {
+                width: 55%;
+                margin-left: 3.4%;
+                font-size: 0.75rem;
+                line-height: 15px;
+            }
+        }
+
+        .container-secondary-rights {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5.9%;
+            font-size: 0.75rem;
+            line-height: 15px;
+        }
+    }
+}
